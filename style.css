@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'consolas', sans-serif;
+}
+
+h1 {
+    height: 80px;
+    padding: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.music {
+    font-size: 4rem;
+    visibility: hidden;
+}
+.time {
+    font-size: 5rem;
+    text-shadow: 0 10px 15px black;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    width: 200px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 20px black;
+}
