@@ -36,8 +36,23 @@
         <span class="music">🎶</span>
         <span class="time">00:00</span>
         <audio id="myAudio" loop>
-            <source src="music.mp3">
+            <!-- <source src="music.mp3"> -->
         </audio>
+
+        <div class="pausediv">
+            <input type="checkbox" id="autoPauseInput" checked>
+            <label for="autoPauseInput">Auto Pause</label>
+        </div>
+        <div class="song-lang">
+            <input type="radio" class="lang-choice" name="song-language" id="english" value="english" checked>
+            <label for="english">English</label>
+            <input type="radio" class="lang-choice" name="song-language" id="hindi" value="hindi">
+            <label for="hindi">Hindi</label>
+            <input type="radio" class="lang-choice" name="song-language" id="marathi" value="marathi">
+            <label for="marathi">Marathi</label>
+            <input type="radio" class="lang-choice" name="song-language" id="telugu" value="telugu">
+            <label for="telugu">Telugu</label>
+        </div>
 
         <button id="btnPlay" class="btn">Play</button>
     </div>

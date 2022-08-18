@@ -42,3 +42,23 @@ h1 {
 .btn:hover {
     box-shadow: 0 5px 20px black;
 }
+
+.song-lang {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+}
+
+.pausediv {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 20px;
+}
