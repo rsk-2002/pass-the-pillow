@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'consolas', sans-serif;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right, coral, cyan);
 }
 
 h1 {
@@ -32,11 +40,10 @@ h1 {
 .btn {
     padding: 1rem 2rem;
     width: 200px;
-    font-size: 20px;
+    font-size: 1.4rem;
     outline: none;
     cursor: pointer;
     background-color: lightgreen;
-    margin: 10px;
 }
 
 .btn:hover {
@@ -44,17 +51,17 @@ h1 {
 }
 
 .song-lang {
-    width: 450px;
+    min-width: 350px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-weight: bold;
     font-size: 1.2rem;
-    line-height: 20px;
 }
 
 input {
-    width: 20px;
-    height: 20px;
+    /* width: 20px; */
+    /* height: 20px; */
 }
 
 .pausediv {
